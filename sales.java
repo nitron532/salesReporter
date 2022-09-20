@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class sales{
 
     public static ArrayList<String> readSales(String fileName) throws IOException{
-        File directoryPath = new File("C:\\Users\\nitron\\Desktop\\RcMakesSales\\");
+        File directoryPath = new File("C:\\Users\\nitron\\Documents\\GitHub\\salesReporter\\");
         String contents[] = directoryPath.list();
         ArrayList<String> productList =  new ArrayList<String>();
         for(int p = 0; p<contents.length; p++){
